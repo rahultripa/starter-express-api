@@ -9,7 +9,7 @@ require('dotenv').config();
 app.use(cors());
 app.use(express.json());
  app.use('/api/OxySchool_info',require('./routes/OxySchool_info'));
- app.use('/api/OxySudentRemarkList',require('./routes/OxySudentRemarkList'));
+// app.use('/api/OxySudentRemarkList',require('./routes/OxySudentRemarkList'));
 app.use('/api/ClassInfoList',require('./routes/ClassInfoList'));
 app.use('/api/AnnouncementList',require('./routes/AnnouncementList'));
 app.use('/api/AttendanceList',require('./routes/AttendanceList'));
