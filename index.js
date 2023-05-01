@@ -8,7 +8,7 @@ require('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
-app.use('/api/HolidayList',require('./routes/HolidayList'));
+//app.use('/api/HolidayList',require('./routes/HolidayList'));
 app.use('/api/ClassInfoList',require('./routes/ClassInfoList'));
 app.use('/api/AnnouncementList',require('./routes/AnnouncementList'));
 app.use('/api/AttendanceList',require('./routes/AttendanceList'));
