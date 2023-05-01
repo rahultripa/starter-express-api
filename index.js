@@ -8,11 +8,11 @@ require('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
-
+app.use('/api/OxySchool_info',require('./routes/OxySchool_info'));
  //app.use('/api/SchoolImageGallaryCategoryList',require('./routes/SchoolImageGallaryCategoryList'));
- app.get('/', (req, res) => {
- res.send('Hello Rahul!')
- })
+ //app.get('/', (req, res) => {
+ //res.send('Hello Rahul!')
+ //})
 
 // app.get('/api/login', (req, res) => {
 //   res.send('Hello login!')
